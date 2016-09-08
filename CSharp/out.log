@@ -1,10 +1,6 @@
-Microsoft (R) Visual Basic Compiler version 14.0.0081
-for Visual Basic 2012
-Copyright (c) Microsoft Corporation.  All rights reserved.
+Visual Basic.Net Compiler version 0.0.0.5943 (Mono 4.4 - mono-4.4.0-branch-c7sr0/fd2427e)
+Copyright (C) 2004-2010 Rolf Bjarne Kvinge. All rights reserved.
 
-This compiler is provided as part of the Microsoft (R) .NET Framework, but only supports language versions up to Visual Basic 2012, which is no longer the latest version. For compilers that support newer versions of the Visual Basic programming language, see http://go.microsoft.com/fwlink/?LinkID=533241
-
-C:\Users\Adonis\Documents\Uni\Development tools subject\Battleship\battleship\VB\src\UtilityFunctions.vb(131) : warning BC42104: Variable 'fillColor' is used before it has been assigned a value. A null reference exception could result at runtime.
-
-                    SwinGame.FillRectangle(fillColor, colLeft, rowTop, cellWidth, cellHeight)
-                                           ~~~~~~~~~                                         
+vbnc : Command line : warning VBNC2009: the option platform was not recognized - ignored
+vbnc : Command line : error VBNC2011: No files to compile! Cannot do anything!
+Compilation took 00:00:00.1008420
