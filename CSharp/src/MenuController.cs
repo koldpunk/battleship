@@ -1,11 +1,11 @@
+
 using Microsoft.VisualBasic;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+//using System.Data;
 using System.Diagnostics;
 using SwinGameSDK;
-//using System.Data;
-
 
 /// <summary>
 /// The menu controller handles the drawing and user interactions
@@ -111,14 +111,14 @@ static class MenuController
 	/// <returns>false if a clicked missed the buttons. This can be used to check prior menus.</returns>
 	private static bool HandleMenuInput(int menu, int level, int xOffset)
 	{
-		if (SwinGame.KeyTyped(KeyCode.EscapeKey)) {
+		if (SwinGame.KeyTyped(KeyCode.vk_ESCAPE)) {
 			GameController.EndCurrentState();
 			return true;
 		}
 
 		if (SwinGame.MouseClicked(MouseButton.LeftButton)) {
 			int i = 0;
-			for (i = 0; i <= _menuStructure[menu].Length - 1; i++) { 
+			for (i = 0; i <= _menuStructure[menu].Length - 1; i++) {
 				//IsMouseOver the i'th button of the menu
 				if (IsMouseOverMenu(i, level, xOffset)) {
 					PerformMenuAction(menu, i);
@@ -202,7 +202,7 @@ static class MenuController
 			int btnLeft = 0;
 			btnLeft = MENU_LEFT + BUTTON_SEP * (i + xOffset);
 			//SwinGame.FillRectangle(Color.White, btnLeft, btnTop, BUTTON_WIDTH, BUTTON_HEIGHT)
-			//SwinGame.DrawText(_menuStructure(menu)(i), MENU_COLOR, Color.Black, GameFont("Menu"), FontAlignment.AlignCenter, btnLeft + TEXT_OFFSET, btnTop + TEXT_OFFSET, BUTTON_WIDTH, 	BUTTON_HEIGHT);
+			//SwinGame.DrawTextLines(_menuStructure(menu)(i), MENU_COLOR, Color.Black, GameResources.GameFont("Menu"), FontAlignment.AlignCenter, btnLeft + TEXT_OFFSET, btnTop + TEXT_OFFSET, BUTTON_WIDTH, BUTTON_HEIGHT);
 
 			if (SwinGame.MouseDown(MouseButton.LeftButton) & IsMouseOverMenu(i, level, xOffset)) {
 				SwinGame.DrawRectangle(HIGHLIGHT_COLOR, btnLeft, btnTop, BUTTON_WIDTH, BUTTON_HEIGHT);
