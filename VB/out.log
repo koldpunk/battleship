@@ -5,4 +5,4 @@ vbnc : Command line : warning VBNC2009: the option platform was not recognized -
 Assembly 'VB, Version=0.0, Culture=neutral, PublicKeyToken=null' saved successfully to '/Users/AlexWong/Desktop/battleship/VB/bin/Debug/VB.exe'.
 There were 0 errors and 1 warnings.
 Compilation successful
-Compilation took 00:00:01.0176600
+Compilation took 00:00:00.8770630
