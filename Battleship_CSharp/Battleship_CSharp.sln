@@ -1,0 +1,46 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6540CDED-473E-47FB-AC49-FBC7821F7C01}"
+	ProjectSection(SolutionItems) = preProject
+		src\DeploymentController.cs = src\DeploymentController.cs
+		src\DiscoveryController.cs = src\DiscoveryController.cs
+		src\EndingGameController.cs = src\EndingGameController.cs
+		src\GameController.cs = src\GameController.cs
+		src\GameLogic.cs = src\GameLogic.cs
+		src\GameResources.cs = src\GameResources.cs
+		src\GameState.cs = src\GameState.cs
+		src\HighScoreController.cs = src\HighScoreController.cs
+		src\MenuController.cs = src\MenuController.cs
+		src\UtilityFunction.cs = src\UtilityFunction.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{4A8FE8F6-2F52-4183-9452-1504458180E6}"
+	ProjectSection(SolutionItems) = preProject
+		src\model\AIHardPlayer.cs = src\model\AIHardPlayer.cs
+		src\model\AIMediumPlayer.cs = src\model\AIMediumPlayer.cs
+		src\model\AIOption.cs = src\model\AIOption.cs
+		src\model\AIPlayer.cs = src\model\AIPlayer.cs
+		src\model\AttackResult.cs = src\model\AttackResult.cs
+		src\model\BattleShipsGame.cs = src\model\BattleShipsGame.cs
+		src\model\Direction.cs = src\model\Direction.cs
+		src\model\ISeaGrid.cs = src\model\ISeaGrid.cs
+		src\model\Player.cs = src\model\Player.cs
+		src\model\ResultOfAttack.cs = src\model\ResultOfAttack.cs
+		src\model\SeaGrid.cs = src\model\SeaGrid.cs
+		src\model\SeaGridAdapter.cs = src\model\SeaGridAdapter.cs
+		src\model\Ship.cs = src\model\Ship.cs
+		src\model\ShipName.cs = src\model\ShipName.cs
+		src\model\Tile.cs = src\model\Tile.cs
+		src\model\TileView.cs = src\model\TileView.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4A8FE8F6-2F52-4183-9452-1504458180E6} = {6540CDED-473E-47FB-AC49-FBC7821F7C01}
+	EndGlobalSection
+EndGlobal
