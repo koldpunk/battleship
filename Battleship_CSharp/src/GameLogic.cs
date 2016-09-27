@@ -5,6 +5,10 @@ using System.Collections;
 using System.Collections.Generic;
 //using System.Data;
 using System.Diagnostics;
+
+/// <summary>
+/// GameLogic is responsible for loading and unloading resources, starting and stopping music, and initiating the game loop
+/// </summary>
 static class GameLogic
 {
 	public static void Main()

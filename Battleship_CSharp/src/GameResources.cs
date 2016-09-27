@@ -7,6 +7,9 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using SwinGameSDK;
 
+/// <summary>
+/// GameResources contains names and filepaths for all resources used.
+/// </summary>
 public static class GameResources
 {
 
