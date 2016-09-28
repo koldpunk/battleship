@@ -1,46 +1,36 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6540CDED-473E-47FB-AC49-FBC7821F7C01}"
-	ProjectSection(SolutionItems) = preProject
-		src\DeploymentController.cs = src\DeploymentController.cs
-		src\DiscoveryController.cs = src\DiscoveryController.cs
-		src\EndingGameController.cs = src\EndingGameController.cs
-		src\GameController.cs = src\GameController.cs
-		src\GameLogic.cs = src\GameLogic.cs
-		src\GameResources.cs = src\GameResources.cs
-		src\GameState.cs = src\GameState.cs
-		src\HighScoreController.cs = src\HighScoreController.cs
-		src\MenuController.cs = src\MenuController.cs
-		src\UtilityFunction.cs = src\UtilityFunction.cs
-	EndProjectSection
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Battleship_CSharp", "Battleship_CSharp.csproj", "{3326E8C2-0FA7-4BC0-88C2-913236841B74}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{4A8FE8F6-2F52-4183-9452-1504458180E6}"
-	ProjectSection(SolutionItems) = preProject
-		src\model\AIHardPlayer.cs = src\model\AIHardPlayer.cs
-		src\model\AIMediumPlayer.cs = src\model\AIMediumPlayer.cs
-		src\model\AIOption.cs = src\model\AIOption.cs
-		src\model\AIPlayer.cs = src\model\AIPlayer.cs
-		src\model\AttackResult.cs = src\model\AttackResult.cs
-		src\model\BattleShipsGame.cs = src\model\BattleShipsGame.cs
-		src\model\Direction.cs = src\model\Direction.cs
-		src\model\ISeaGrid.cs = src\model\ISeaGrid.cs
-		src\model\Player.cs = src\model\Player.cs
-		src\model\ResultOfAttack.cs = src\model\ResultOfAttack.cs
-		src\model\SeaGrid.cs = src\model\SeaGrid.cs
-		src\model\SeaGridAdapter.cs = src\model\SeaGridAdapter.cs
-		src\model\Ship.cs = src\model\Ship.cs
-		src\model\ShipName.cs = src\model\ShipName.cs
-		src\model\Tile.cs = src\model\Tile.cs
-		src\model\TileView.cs = src\model\TileView.cs
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Battleship_CSharpTests", "..\Battleship_CSharpTests\Battleship_CSharpTests.csproj", "{067BC39C-A4B2-4788-A126-ECD0E01F927D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3326E8C2-0FA7-4BC0-88C2-913236841B74}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{3326E8C2-0FA7-4BC0-88C2-913236841B74}.Debug|x86.ActiveCfg = Debug|x86
+		{3326E8C2-0FA7-4BC0-88C2-913236841B74}.Debug|x86.Build.0 = Debug|x86
+		{3326E8C2-0FA7-4BC0-88C2-913236841B74}.Release|Any CPU.ActiveCfg = Release|x86
+		{3326E8C2-0FA7-4BC0-88C2-913236841B74}.Release|x86.ActiveCfg = Release|x86
+		{3326E8C2-0FA7-4BC0-88C2-913236841B74}.Release|x86.Build.0 = Release|x86
+		{067BC39C-A4B2-4788-A126-ECD0E01F927D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{067BC39C-A4B2-4788-A126-ECD0E01F927D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{067BC39C-A4B2-4788-A126-ECD0E01F927D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{067BC39C-A4B2-4788-A126-ECD0E01F927D}.Debug|x86.Build.0 = Debug|Any CPU
+		{067BC39C-A4B2-4788-A126-ECD0E01F927D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{067BC39C-A4B2-4788-A126-ECD0E01F927D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{067BC39C-A4B2-4788-A126-ECD0E01F927D}.Release|x86.ActiveCfg = Release|Any CPU
+		{067BC39C-A4B2-4788-A126-ECD0E01F927D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{4A8FE8F6-2F52-4183-9452-1504458180E6} = {6540CDED-473E-47FB-AC49-FBC7821F7C01}
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
