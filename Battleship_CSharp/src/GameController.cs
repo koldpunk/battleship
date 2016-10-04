@@ -347,7 +347,7 @@ public static class GameController
 	public static void AddNewState(GameState state)
 	{
 		_state.Push(state);
-		UtilityFunctions.Message = "";
+		//UtilityFunctions.Message = ""; // BUG : DALE - Removed this as it was causing an exception in the tests but not in actual build - seems to have no purpose.
 	}
 
 	/// <summary>
