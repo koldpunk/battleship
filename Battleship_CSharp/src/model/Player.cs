@@ -20,8 +20,8 @@ public class Player : IEnumerable<Ship>
 	protected BattleShipsGame _game;
 	private int _shots;
 	private int _hits;
-
 	private int _misses;
+
 	/// <summary>
 	/// Returns the game that the player is part of.
 	/// </summary>
@@ -181,12 +181,15 @@ public class Player : IEnumerable<Ship>
 	/// <returns>the result of the attack</returns>
 	internal AttackResult Shoot(int row, int col)
 	{
-		_shots += 1;
 		AttackResult result = default(AttackResult);
 		result = EnemyGrid.HitTile(row, col);
 
-		switch (result.Value) {
+		_shots += 1;
+
+		switch (result.Value)
+		{
 			case ResultOfAttack.Destroyed:
+				break;
 			case ResultOfAttack.Hit:
 				_hits += 1;
 				break;
@@ -194,7 +197,6 @@ public class Player : IEnumerable<Ship>
 				_misses += 1;
 				break;
 		}
-
 		return result;
 	}
 
