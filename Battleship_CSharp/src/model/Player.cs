@@ -184,7 +184,8 @@ public class Player : IEnumerable<Ship>
 		AttackResult result = default(AttackResult);
 		result = EnemyGrid.HitTile(row, col);
 
-		_shots += 1;
+		if(result.Value != ResultOfAttack.ShotAlready)
+		{ _shots += 1; }
 
 		switch (result.Value)
 		{
