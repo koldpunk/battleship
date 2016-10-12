@@ -27,12 +27,12 @@ static class UtilityFunctions
 
 	public const int SHIP_GAP = 3;
 	private static readonly Color SMALL_SEA = SwinGame.RGBAColor(6, 60, 94, 255);
-	private static readonly Color SMALL_SHIP = Color.Gray;
+	//private static readonly Color SMALL_SHIP = Color.Gray;
 	private static readonly Color SMALL_MISS = SwinGame.RGBAColor(1, 147, 220, 255);
 
 	private static readonly Color SMALL_HIT = SwinGame.RGBAColor(169, 24, 37, 255);
-	private static readonly Color LARGE_SEA = SwinGame.RGBAColor(6, 60, 94, 255);
-	private static readonly Color LARGE_SHIP = Color.Gray;
+	//private static readonly Color LARGE_SEA = SwinGame.RGBAColor(6, 60, 94, 255);
+	//private static readonly Color LARGE_SHIP = Color.Gray;
 	private static readonly Color LARGE_MISS = SwinGame.RGBAColor(1, 147, 220, 255);
 
 	private static readonly Color LARGE_HIT = SwinGame.RGBAColor(252, 2, 3, 255);
