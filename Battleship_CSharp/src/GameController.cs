@@ -119,6 +119,12 @@ public static class GameController
 		SwinGame.RefreshScreen();
 	}
 
+	/// <summary>
+	/// Initiates the visuals and SFX for firing at a tile if a ship is there.
+	/// </summary>
+	/// <param name="row">the fired upon tile's row</param>
+	/// <param name="column">the fired upon title's column</param>
+	/// <param name="showAnimation">Show animation option</param>
 	private static void PlayHitSequence(int row, int column, bool showAnimation)
 	{
 		if (showAnimation) {
@@ -130,6 +136,12 @@ public static class GameController
 		UtilityFunctions.DrawAnimationSequence();
 	}
 
+	/// <summary>
+	/// Initiates the visuals and SFX for firing at a tile if a ship ISN'T there.
+	/// </summary>
+	/// <param name="row">the fired upon tile's row</param>
+	/// <param name="column">the fired upon title's column</param>
+	/// <param name="showAnimation">Show animation option</param>
 	private static void PlayMissSequence(int row, int column, bool showAnimation)
 	{
 		if (showAnimation) {
